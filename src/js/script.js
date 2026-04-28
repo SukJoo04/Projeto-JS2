@@ -24,3 +24,20 @@ console.log(texto2)
 //join- junta tudo em uma única string
 const texto3 = texto2.join(" ");
 console.log(texto3)
+// Método toFixed
+
+
+const precoProduto=199.99;
+const desconto=0.15; //15%
+const precoFinal = precoProduto * (1-desconto);
+console.log(precoFinal);
+//``- template strings - concatenação
+console.log(`R$ ${precoFinal.toFixed(2)}`);
+
+
+//DOM (Document object model)
+
+const Título=document.getElementById("título")
+
+Título.innerText= "O DOM Mudou o Texto";
+Título.style.colo="blue";
